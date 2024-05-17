@@ -116,7 +116,7 @@ const CustomerFormSchema = z.object({
 	id: z.string(),
 	name: z.string(),
 	email: z.string().email(),
-	image_url: z.string().url(),
+	image_url: z.string(),
 });
 
 export type CustomerState = {
